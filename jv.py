@@ -1,1 +1,1 @@
-print("hello automation")
+print("hello automatin")
