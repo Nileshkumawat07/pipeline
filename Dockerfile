@@ -1,5 +1,6 @@
 FROM python:3.13.7
+
+WORKDIR /jv
 COPY . .
-WORKDIR / jv
-ENTRYPOINT ["python"]
-CMD ["jv.py"]
+
+CMD ["python", "jv.py"]
