@@ -1,6 +1,5 @@
 FROM python:3.13.7
-COPY ./ jv
+COPY . .
 WORKDIR / jv
 ENTRYPOINT ["python"]
 CMD ["jv.py"]
-
