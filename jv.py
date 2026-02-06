@@ -108,7 +108,7 @@ HTML = """
 <body>
 
 <div class="container">
-    <h1>🚀 DevOps Automation  by Nilesh kumawat </h1>
+    <h1> CI/CD DevOps Automation  by Nilesh kumawat </h1>
     <p class="subtitle">From Code Commit to Cloud Deployment – Fully Automated</p>
 
     <div class="steps">
