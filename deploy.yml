@@ -1,0 +1,12 @@
+---
+- name: Deploy App
+  hosts: ec2
+  tasks:
+    - name: Remove old container
+      shell: docker rm -f pipeline_container222 || true
+
+    - name: Pull latest image
+      shell: docker pull nilesh9890/pipeline7:latest
+
+    - name: Run container
+      shell: docker run -d -p 5000:5000 --name pipeline_container222 nilesh9890/pipeline7:latest
