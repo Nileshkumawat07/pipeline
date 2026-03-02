@@ -117,7 +117,7 @@ HTML = """
             <div class="step">STEP 1</div>
             <h2>Write Application Code</h2>
             <p>
-                The journey starts by writing applicatio code (Python / Flask).
+                The journey starts by writing applcatio code (Python / Flask).
                 This code is stored in a GitHub repository so that every change
                 can be tracked and versioned.
             </p>
