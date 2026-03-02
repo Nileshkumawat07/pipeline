@@ -109,7 +109,7 @@ HTML = """
 
 <div class="container">
     <h1> CI/CD  Automation  by nilesh </h1>
-    <p class="subtitle">From Code Commit to Cloud– Fully Automated</p>
+    <p class="subtitle">From Code Commit to Clud– Fully Automated</p>
 
     <div class="steps">
 
