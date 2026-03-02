@@ -118,7 +118,7 @@ HTML = """
             <h2>Write Application Code</h2>
             <p>
                 The journey starts by writinapplcatio code (Python / Flask).
-                This code is stored in a GitHub repository so that every change
+                This code is store in a GitHub repository so that every change
                 can be tracked and versioned.
             </p>
         </div>
