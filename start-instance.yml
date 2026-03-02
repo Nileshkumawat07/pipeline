@@ -1,0 +1,14 @@
+---
+- name: Start EC2 Instance
+  hosts: localhost
+  connection: local
+  gather_facts: no
+
+  tasks:
+    - name: Start instance
+      amazon.aws.ec2_instance:
+        instance_ids:
+          - i-06276acd6ef6347ee
+        state: started
+        region: ap-south-1
+        wait: yes

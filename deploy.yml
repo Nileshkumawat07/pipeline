@@ -9,4 +9,4 @@
       shell: docker pull nilesh9890/pipeline7:latest
 
     - name: Run container
-      shell: docker run -d -p 5003:5002 --name pipeline_container222 nilesh9890/pipeline7:latest
+      shell: docker run -d -p 5003:5002 --name pipeline_container222 --restart unless-stopped nilesh9890/pipeline7:latest   #restart unless stoped = restart automaticaly container after instance start /or crashes
